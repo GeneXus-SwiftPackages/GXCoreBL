@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreBL",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreBL-1.0.0-beta+20230420132651.xcframework.zip",
-			checksum: "aa31a8c7f127ec8608b3907ccef0b4f4eb4b6c2084815c8fcda378a19efb4f22"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreBL-1.0.0-beta+20230424185248.xcframework.zip",
+			checksum: "92903ef54c22fcd0b68506a3d000f635e098e83418620aa09efce941707821ae"
 		)
 	]
 )
