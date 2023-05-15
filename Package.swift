@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXCoreBLWrapper",
 				dependencies: [
 					"GXCoreBL",
-					.product(name: "GXStandardClasses", package: "GXStandardClasses", condition: .when(platforms: [.watchOS, .tvOS, .iOS]))
+					.product(name: "GXStandardClasses", package: "GXStandardClasses", condition: .when(platforms: [.watchOS, .iOS, .tvOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreBL",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreBL-1.0.0-beta+20230515023341.xcframework.zip",
-			checksum: "8f55bc0f31a0bef5a03a218a979c12ea9dd7b492b34f28321e7669cfc057b09c"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreBL-1.0.0-beta+20230515145153.xcframework.zip",
+			checksum: "a583100cfcfb4c2b21aa7f67151594442c2d58453fd969694f6b51b4a729a582"
 		)
 	]
 )
