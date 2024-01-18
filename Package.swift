@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXCoreBL",
-	platforms: [.iOS("12.0"), .watchOS("5.0"), .tvOS("12.0")],
+	platforms: [.iOS("12.0"), .watchOS("9.0"), .tvOS("12.0")],
 	products: [
 		.library(
 			name: "GXCoreBL",
 			targets: ["GXCoreBLWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXStandardClasses.git", exact: "1.4.0-rc.10")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXStandardClasses.git", exact: "1.4.0-rc.21")
 	],
 	targets: [
 		.target(name: "GXCoreBLWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreBL",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXCoreBL-1.4.0-rc.10.xcframework.zip",
-			checksum: "0a018322a88924757f4a763077d7628a86ed86b1c0800dfcedae2d4a0c69d5bb"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXCoreBL-1.4.0-rc.21.xcframework.zip",
+			checksum: "bca3a242f47e0490d26af67ecdaf447129a1b3d72879b05d3bba07d275eb56ba"
 		)
 	]
 )
