@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreBLWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXStandardClasses.git", exact: "1.6.0-beta.2")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXStandardClasses.git", exact: "1.6.0-beta.3")
 	],
 	targets: [
 		.target(name: "GXCoreBLWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreBL",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreBL-1.6.0-beta.2.xcframework.zip",
-			checksum: "838b0deb41059e419d5c6259e634f13fd8720489adb802f8061a48021a9b2a99"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreBL-1.6.0-beta.3.xcframework.zip",
+			checksum: "592bc2998a8b0a79f3454ce86f11c77e56018c58841968b33ac390881dcbbe33"
 		)
 	]
 )
