@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreBLWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXStandardClasses.git", exact: "2.0.0-beta.25")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXStandardClasses.git", exact: "2.0.0-beta.26")
 	],
 	targets: [
 		.target(name: "GXCoreBLWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreBL",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreBL-2.0.0-beta.25.xcframework.zip",
-			checksum: "831a1f066140304b6e736b0b7c2f59c0cc7baeab5e5ec7da245efa18a3638f42"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreBL-2.0.0-beta.26.xcframework.zip",
+			checksum: "31c2d5e76ce9b316fbb06be7b2086c17e80ff56721f128ed696c283f63c7b9a5"
 		)
 	]
 )
